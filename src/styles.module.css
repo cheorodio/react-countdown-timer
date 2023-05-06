@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;500&family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #026960;
+  background-image: url(./bg4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 32px 128px;
+  font-family: 'Poppins', sans-serif;
+  color: #e1e2e4;
+}
+
+header {
+  position: relative;
+}

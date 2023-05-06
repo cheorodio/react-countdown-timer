@@ -7,6 +7,7 @@ export const HeaderTitle = styled.h1`
   font-size: 5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
+  padding-top: 32px;
 `;
 
 export const HeaderSpan = styled.p`
@@ -14,7 +15,7 @@ export const HeaderSpan = styled.p`
   font-family: 'Caveat', sans-serif;
   font-size: 2rem;
   position: absolute;
-  top: 65%;
+  top: 69%;
   left: 50%;
   transform: translate(-50%, -50%);
 `;
@@ -26,12 +27,12 @@ export const HeaderInfo = styled.p`
   margin-bottom: 64px;
 `;
 
-export const HeaderImage = styled.img`
-  height: 80px;
-  position: absolute;
-  left: 18%;
-  top: 18%;
-`;
+// export const HeaderImage = styled.img`
+//   height: 80px;
+//   position: absolute;
+//   left: 18%;
+//   top: 18%;
+// `;
 
 // styling the timer container
 export const TimeMainContainer = styled.div`
